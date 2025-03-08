@@ -1,0 +1,75 @@
+body {
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+header h1 {
+    color: #000;
+    font-weight: 300;
+    letter-spacing: 1px;
+}
+
+.card {
+    border: none;
+    border-radius: 0;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+}
+
+.card-header {
+    background-color: #000;
+    color: #fff;
+    font-weight: 300;
+    border-radius: 0 !important;
+}
+
+.btn-dark {
+    background-color: #000;
+    border-color: #000;
+    border-radius: 0;
+}
+
+.btn-dark:hover {
+    background-color: #333;
+}
+
+.btn-outline-dark {
+    border-color: #000;
+    color: #000;
+    border-radius: 0;
+}
+
+.btn-outline-dark:hover {
+    background-color: #000;
+    color: #fff;
+}
+
+.form-control {
+    border-radius: 0;
+    border: 1px solid #ddd;
+}
+
+.form-control:focus {
+    box-shadow: none;
+    border-color: #000;
+}
+
+.brand-story-form {
+    background-color: #fff;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+}
+
+/* Luxury styling touches */
+h2, h3 {
+    font-weight: 300;
+    letter-spacing: 0.5px;
+}
+
+label {
+    font-weight: 300;
+}
+
+#result .card-text {
+    line-height: 1.8;
+    white-space: pre-line;
+}
